@@ -76,6 +76,16 @@ function HomeScreen({ navigation }) {
                 {item.title}
               </Text>
               <Text className="text-sm text-gray-600">{item.author}</Text>
+
+              {/* Added status text here */}
+              <Text
+                className={`text-sm font-medium mt-1 ${
+                  item.read ? "text-green-600" : "text-red-500"
+                }`}
+              >
+                {item.read ? "Read" : "Not Read"}
+              </Text>
+
               <Text className="text-xs text-gray-400 mt-2">
                 Added on {new Date(item.createdAtMs).toDateString()}
               </Text>

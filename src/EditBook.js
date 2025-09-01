@@ -59,7 +59,7 @@ export default function CreateBook() {
       <View className="mb-6 w-full">
         <Text className="text-gray-700 font-semibold mb-2">UID</Text>
         <View className="bg-gray-100 border border-gray-200 rounded-2xl px-4 py-3 shadow-inner w-full">
-          <Text className="text-gray-600 text-base">user_placeholder</Text>
+          <Text className="text-gray-600 text-base">uniqueID_placeholder</Text>
         </View>
       </View>
 
